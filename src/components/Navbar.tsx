@@ -19,3 +19,14 @@ export default function Navbar() {
     </nav>
   );
 }
+
+export function Footer() {
+  return (
+    <footer className="mt-auto bg-slate-800 text-slate-400 backdrop-blur-lg bg-white/10 border border-white/20 text-white font-bold flex items-center justify-between px-6 shadow-lg sticky top-0 z-50">
+      
+      <div className="container my-0 px-6 py-8">
+        <p>&copy; 2023 GameHub. All rights reserved.</p>
+      </div>
+    </footer>
+  );
+}
