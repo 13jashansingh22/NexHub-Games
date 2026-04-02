@@ -1,0 +1,56 @@
+.blob-background {
+	position: fixed;
+	inset: 0;
+	overflow: hidden;
+	pointer-events: none;
+	z-index: 0;
+	isolation: isolate;
+}
+
+.blob {
+	position: absolute;
+	width: 28rem;
+	height: 28rem;
+	border-radius: 9999px;
+	filter: blur(90px);
+	opacity: 0.7;
+	mix-blend-mode: screen;
+	will-change: transform, opacity;
+	animation: blob-float 22s ease-in-out infinite;
+}
+
+.blob-one {
+	top: -8rem;
+	left: -6rem;
+	background: radial-gradient(circle at 30% 30%, rgba(32, 75, 48, 0.85), rgba(34, 197, 94, 0.2) 45%, transparent 72%);
+	animation-duration: 24s;
+}
+
+.blob-two {
+	top: 18%;
+	right: -10rem;
+	background: radial-gradient(circle at 30% 30%, rgba(43, 61, 40, 0.85), rgba(56, 189, 248, 0.18) 45%, transparent 72%);
+	animation-duration: 28s;
+	animation-delay: -8s;
+}
+
+.blob-three {
+	bottom: -11rem;
+	left: 28%;
+	background: radial-gradient(circle at 30% 30%, rgba(0, 78, 20, 0.82), rgba(251, 191, 36, 0.18) 45%, transparent 72%);
+	animation-duration: 26s;
+	animation-delay: -15s;
+}
+
+@keyframes blob-float {
+	0%,
+	100% {
+		transform: translate3d(0, 0, 0) scale(1);
+	}
+	33% {
+		transform: translate3d(5rem, -3rem, 0) scale(1.08);
+	}
+	66% {
+		transform: translate3d(-4rem, 4rem, 0) scale(0.96);
+	}
+}
