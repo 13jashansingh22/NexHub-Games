@@ -11,21 +11,21 @@ type Game = {
 const games: Game[] = [
 	{
 		title: "Game 1",
-		image: "https://via.placeholder.com/600x400",
+		image: "https://plus.unsplash.com/premium_vector-1729263877891-2911a99783d3?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 		genre: "Action",
 		rating: 4.6,
 		players: "1-4",
 	},
 	{
 		title: "Game 2",
-		image: "https://via.placeholder.com/600x400",
+		image: "https://plus.unsplash.com/premium_vector-1729263877891-2911a99783d3?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 		genre: "Adventure",
 		rating: 4.8,
 		players: "1-2",
 	},
 	{
 		title: "Game 3",
-		image: "https://source.unsplash.com/600x400/?retro-game",
+		image: "https://plus.unsplash.com/premium_vector-1729263877891-2911a99783d3?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 		genre: "Racing",
 		rating: 4.4,
 		players: "2-8",
