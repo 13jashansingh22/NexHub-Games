@@ -25,6 +25,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
+      <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6389330671246321"
+          crossOrigin="anonymous"
+        />
+      </head>
       <body className="relative min-h-screen overflow-x-hidden bg-[#0c3627] text-white">
         <div aria-hidden="true" className="blob-background">
           <span className="blob blob-one" />
